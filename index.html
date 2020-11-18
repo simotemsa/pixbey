@@ -4,15 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet"  media="screen and (min-width: 1300px)"  href="css/widescreen.css"/>
+  <link rel="stylesheet"  media="screen and (min-width: 1500px)"  href="css/widescreen.css"/>
   <link rel="stylesheet"  media="screen and (max-width: 500px)"  href="css/mobile.css"/>
+  <script src="https://kit.fontawesome.com/ed59892b3a.js" crossorigin="anonymous"></script>
   <title>Pixbey</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <nav id="navbar">
-        <div>
+  <div class="bg-header">
+    <header>
+      <div class="container">
+        <nav id="navbar">
+          <div>
           <img src="img/logo-h.png" alt="Pixbey-logo" id="logo">
           <p> <b>Pixbey</b> </p>
         </div>
@@ -36,11 +38,119 @@
           
         </ul>
       </nav>
-      <div id="header-cont">
+      <div id="showcase">
+        <div>
+          <h1>We Create Applications
+            With Excellent Technology.</h1>
+          <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum Is That It Has A More-Or-Less Normal Distribution Of Letters, As Opposed To Using 'Content Here, Content Here', Making It.</p>
+          <a href="#">Explore More &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+
+        </div>
+        <div>
+          <img src="img/Group1.png" alt="image">
+        </div>
         
       </div>
     </div>
-  </header>
+
+    </header>
+  </div>
+  <div id="why-us">
+    <h1>Why Us</h1>
+    <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem.</p>
+  </div>
+  <div id="built">
+    <div><img src="img/img-built.png" alt="image"></div>
+    <div id="built-txt">
+      <h2>Built An App That 
+        Everyone Loves.</h2>
+      <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum Is That It Has A More-Or-Less Normal Distribution Of Letters,</p>
+      <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using </p>
+      <br>
+      <a href="#"><sup>Get More</sup>  &nbsp; <i class="fas fa-long-arrow-alt-right fa-2x"></i></a>
+
+    </div>
+  </div>
+  <div class="container">
+    <div id="work">
+      <h1>Work With Us!</h1>
+      <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem.</p>
+      <div id="form-cont">
+        <h2>Project Enquiry</h2>
+        <p>Fill up the form below to tell us more about your project</p>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" placeholder="How should we address you?">
+
+          <label for="contact">Contact</label>
+          <input type="text" placeholder="Your phone number">
+
+          <label for="email">Email</label>
+          <input type="text" placeholder="Your work email">
+
+          <label for="project">Type Of Project</label>
+          <div>
+            <input list='projects' name="project" placeholder="Select your project category" id="project">
+            <datalist id="projects">
+                <option value="Ecommerce">***** Ecommerce *****</option>
+                <option value="Mobile App">***** Mobile App *****</option>
+                <option value="UI/UX Design">***** UI/UX Design *****</option>
+                <option value="Branding">***** Branding *****</option>
+                <option value="Interactive Mobile Game">***** Interactive Mobile Game *****</option>
+                <option value="Other: ">&nbsp;  +  NB : IF your categoty NOT in the list above please indicate yours +</option>
+            </datalist>
+            <h6>Our work differs between different types of projects (ie. ecommerce, mobile app, UI/UX design, branding, or interactive mobile game). Tell us your project category. </h6>
+          </div>
+
+          <label for="budget">Budget Range</label>
+          <div>
+            <input list='budgets' name="budget" placeholder="Select an estimate of your budget range" id="budget">
+            <datalist id="budgets">
+                <option value="RM1.000 - RM4.999">_______ RM1.000 - RM4.999 _______</option>
+                <option value="RM5.000 - RM9.999">_______ RM5.000 - RM9.999 _______</option>
+                <option value="RM10.000 - RM49.999">_______ RM10.000 - RM49.999 _______</option>
+                <option value="RM50.000 - RM199.999">_______ RM50.000 - RM199.999 _______</option>
+                <option value="Above RM200.000">_______ Above RM200.000 _______</option>
+            </datalist>
+            <h6>There are many variations of passages of Lorem Ipsum but the majority have suffered alteration. </h6>
+          </div>
+
+          <label for="date">Project Deadline</label>
+          <input type="date" placeholder="When do you need it done?">
+
+          <label for="message">Message</label>
+          <div>
+            <textarea placeholder="Anything else to add?"></textarea>
+            <input id="send" type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div id="logo-f">
+        <img src="img/logo-f.png" alt="">
+        <h6>Copyright Pixbey 2020  </h6>
+      </div>
+      <div id="links">
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-pinterest-p"></i>
+
+        </div>
+        <div class="link">
+          <a href="#">Terms of use</a>
+          <div></div>
+          <a href="#">Privacy  Policy  </a>
+        </div>
+      </div>
+    </div>
+  </footer>
   
 </body>
 </html>
