@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet"  media="screen and (min-width: 1500px)"  href="css/widescreen.css"/>
-  <link rel="stylesheet"  media="screen and (max-width: 500px)"  href="css/mobile.css"/>
+  <link rel="stylesheet"  media="screen and (max-width: 1200px)"  href="css/medium.css"/>
+  <link rel="stylesheet"  media="screen and (max-width: 700px)"  href="css/menu.css"/>
+  <link rel="stylesheet"  media="screen and (max-width: 600px)"  href="css/mobile.css"/>
   <script src="https://kit.fontawesome.com/ed59892b3a.js" crossorigin="anonymous"></script>
   <title>Pixbey</title>
 </head>
@@ -16,38 +18,47 @@
         <nav id="navbar">
           <div>
           <img src="img/logo-h.png" alt="Pixbey-logo" id="logo">
-          <p> <b>Pixbey</b> </p>
+          <p> Pixbey </p>
         </div>
-        
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Why Us</a>
-          </li>
-          <li>
-            <a href="#">Our Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Our Clients</a>
-          </li>
-          <li>
-            <a href="#" class="current">Contact Us</a>
-          </li>
+        <!--Wrap Menu  -->
+        <div class="menu-wrap">
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger"><div></div></div>
+          <div class="menu">
+            <div>
+              <div>
+                <ul>
+                  <li><a href="#" >Home</a></li>
+                  <li><a href="#">Why Us</a></li>
+                  <li><a href="#">Our Portfolio</a></li>
+                  <li><a href="#">Our Clients</a></li>
+                  <li><a href="#" class="current">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- normal manu -->
+        <ul class="manul">
+          <li>   <a href="#">Home</a> </li>
+          <li>   <a href="#">Why Us</a> </li>
+          <li>   <a href="#">Our Portfolio</a> </li>
+          <li>   <a href="#">Our Clients</a> </li>
+          <li>   <a href="#" class="current">Contact Us</a> </li>
           
         </ul>
       </nav>
       <div id="showcase">
         <div>
           <h1>We Create Applications
-            With Excellent Technology.</h1>
+            With Excellent Technology</h1>
           <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum Is That It Has A More-Or-Less Normal Distribution Of Letters, As Opposed To Using 'Content Here, Content Here', Making It.</p>
           <a href="#">Explore More &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
 
         </div>
         <div>
-          <img src="img/Group1.png" alt="image">
+          <img class="img3" src="img/Group1.png" alt="image">
+          <img class="img1" src="img/phone.png" alt="image">
         </div>
         
       </div>
@@ -60,7 +71,8 @@
     <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem.</p>
   </div>
   <div id="built">
-    <div><img src="img/img-built.png" alt="image"></div>
+    <div><img class="img0" src="img/img-built.png" alt="image"></div>
+    <div><img class="img2" src="img/img-built2.png" alt="image"></div>
     <div id="built-txt">
       <h2>Built An App That 
         Everyone Loves.</h2>
@@ -133,6 +145,7 @@
     <div class="container">
       <div id="logo-f">
         <img src="img/logo-f.png" alt="">
+
         <h6>Copyright Pixbey 2020  </h6>
       </div>
       <div id="links">

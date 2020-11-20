@@ -8,7 +8,6 @@ body{
 .bg-header{
   background: url(../img/bg.png)  no-repeat center center/cover;
   height: 120vh;
-  
 }
 .container{
   width: 1100px;
@@ -40,7 +39,11 @@ nav p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 1rem;
 }
-nav ul {
+
+.menu-wrap{
+  display: none;
+}
+nav .manul {
   display: flex;
   list-style: none;
   margin-top: 0;
@@ -97,8 +100,12 @@ nav ul li a.current{
   margin-bottom: 3rem ;
   width: 515px;
 }
-#showcase img{
+#showcase .img3 {
   width: 580px;
+}
+
+#showcase .img1{
+  display: none
 }
 
 /* Why Us */
@@ -116,14 +123,17 @@ nav ul li a.current{
 #built{
   display: flex;
 }
-#built img{
+#built .img0{
   width: 600px;
 }
+#built .img2{
+  display: none;}
+
 #built-txt{
   padding:6rem 2rem ;
 }
 #built-txt a{
-  background: rgb(0, 0, 212);
+  background: rgb(30, 30, 245);
   padding: 1rem 1.2rem 0.5rem 1.2rem;
   border-radius: 10px;
   color: rgb(248, 247, 247);
@@ -134,6 +144,7 @@ nav ul li a.current{
 }
 #built h2{
   width: 250px;
+  line-height: 1.2;
 }
 
 /* Work */
@@ -141,7 +152,7 @@ nav ul li a.current{
   align-content: center;
 }
 #form-cont{
-  background-color: rgb(43, 0, 161);
+  background-color: #333697;
   color: #eee ;
   width: 700px;
   margin: 3rem auto;
@@ -194,9 +205,13 @@ form{
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-gap: 1rem;
+
 }
+
+/* Footer */
+
 h6{
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
 }
 
 footer{
@@ -207,12 +222,12 @@ footer .container{
   display: flex;
   justify-content: space-between;
 }
-#logo-f img{
+footer img{
   width: 120px;
   padding: 1rem 0 0.7rem 0;
 }
 
-#logo-f h6{
+footer h6{
   color: #677294;
   margin-top: 0;
   font-weight: 400;

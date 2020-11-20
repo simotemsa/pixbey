@@ -1,0 +1,129 @@
+.container{
+  max-width: 390px;
+}
+p{
+  font-size: 14px;
+}
+
+.bg-header{
+  background: url(../img/bg-mob.png)  no-repeat center center/cover;
+  height: 90vh;
+}
+
+
+/* Showcase */
+#showcase {
+  flex-direction: column;
+ }
+
+ #showcase h1{
+  padding-top: 4.5rem;
+  width: 330px;
+  font-size: 24px;
+  margin: 0.5rem auto;
+}
+#showcase p{
+  width: 320px;
+  font-size: 14px;
+}
+#showcase a{
+  padding:0.7rem 1.5rem ;
+  margin: 1rem 3rem ;
+
+
+}
+#showcase .img3{
+  display: none
+}
+#showcase .img1{
+  width: 380px;
+  display: inline;
+}
+
+/* Why Us */
+
+#why-us {
+  padding-top: 24rem;
+}
+#why-us p, #work p{
+  width: 300px ;
+}
+
+/* built */
+#built .img2{
+  width: 480px;
+}
+#built-txt{
+  padding:1rem ;
+}
+
+#built-txt p{
+  width: 450px;
+}
+
+  /* Work */
+  #form-cont{
+    width: 400px;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Form */
+form{
+  grid-template-columns: 1fr;
+  grid-gap: 0.1rem;
+}
+label{
+  margin-top: 1rem;
+}
+
+#send{
+  height: 36px;
+  width: 80px;
+  padding: 0 1.5rem;
+  right: -310px;
+
+}
+/* Footer */
+footer .container{
+  flex-direction: column;  
+  align-items: center;
+  height: 220px;
+  justify-content: start;
+}
+#logo-f{
+  height: 75px;
+}
+footer h6{
+  position: relative;
+  top: 110px;
+}
+
+
+@media (max-width: 500px){
+  #form-cont{
+    width: 360px;
+
+  }
+  form{
+    width: 350px;
+    margin: 0 auto ;
+  }
+  input, textarea{
+    max-width: 290px !important;
+  }
+  #send{
+    right: -245px;
+  }
+}
+@media (max-width: 460px){
+  #built .img2{
+    width: 340px;
+  }
+  #built-txt p{
+    width: 350px;
+  }
+  #built-txt {
+    padding: 0.6rem;
+  }
+
+}
